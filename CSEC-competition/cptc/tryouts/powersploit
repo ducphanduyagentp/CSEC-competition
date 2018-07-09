@@ -1,0 +1,41 @@
+ComputerName    : workstation3.corp.com
+OperatingSystem : Windows XP Professional
+ServicePack     : Service Pack 3
+LastLogon       : 9/18/2017 7:12:34 AM
+MsfModule       : exploit/windows/smb/ms10_061_spoolss
+CVE             : http://www.cvedetails.com/cve/2010-2729
+
+ComputerName    : workstation3.corp.com
+OperatingSystem : Windows XP Professional
+ServicePack     : Service Pack 3
+LastLogon       : 9/18/2017 7:12:34 AM
+MsfModule       : exploit/windows/smb/ms08_067_netapi
+CVE             : http://www.cvedetails.com/cve/2008-4250
+
+ComputerName    : workstation1.corp.com
+OperatingSystem : Windows XP Professional
+ServicePack     :
+LastLogon       : 9/18/2017 6:06:56 AM
+MsfModule       : exploit/windows/smb/ms06_040_netapi
+CVE             : http://www.cvedetails.com/cve/2006-3439
+
+ComputerName    : workstation1.corp.com
+OperatingSystem : Windows XP Professional
+ServicePack     :
+LastLogon       : 9/18/2017 6:06:56 AM
+MsfModule       : exploit/windows/smb/ms08_067_netapi
+CVE             : http://www.cvedetails.com/cve/2008-4250
+
+ComputerName    : workstation1.corp.com
+OperatingSystem : Windows XP Professional
+ServicePack     :
+LastLogon       : 9/18/2017 6:06:56 AM
+MsfModule       : exploit/windows/dcerpc/ms03_026_dcom
+CVE             : http://www.cvedetails.com/cve/2003-0352/
+
+ComputerName    : workstation1.corp.com
+OperatingSystem : Windows XP Professional
+ServicePack     :
+LastLogon       : 9/18/2017 6:06:56 AM
+MsfModule       : exploit/windows/dcerpc/ms05_017_msmq
+CVE             : http://www.cvedetails.com/cve/2005-0059

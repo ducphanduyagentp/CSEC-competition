@@ -1,0 +1,120 @@
+Nmap scan report for 192.168.2.2
+Host is up (0.046s latency).
+Not shown: 998 filtered ports
+PORT   STATE SERVICE
+53/tcp open  domain
+80/tcp open  http
+|_http-favicon: Unknown favicon MD5: 082559A7867CF27ACAB7E9867A8B320F
+| http-methods: 
+|_  Supported Methods: GET HEAD POST
+|_http-title: Login
+
+Nmap scan report for 192.168.2.33
+Host is up (0.048s latency).
+Not shown: 999 closed ports
+PORT   STATE SERVICE
+80/tcp open  http
+| http-methods: 
+|_  Supported Methods: GET HEAD POST OPTIONS
+|_http-title: Site doesn't have a title (text/html; charset=UTF-8).
+
+Nmap scan report for 192.168.2.56
+Host is up (0.069s latency).
+All 1000 scanned ports on 192.168.2.56 are filtered
+
+Nmap scan report for 192.168.2.62
+Host is up (0.046s latency).
+Not shown: 997 closed ports
+PORT     STATE SERVICE
+135/tcp  open  msrpc
+139/tcp  open  netbios-ssn
+5000/tcp open  upnp
+
+Host script results:
+|_smb2-security-mode: SMB: Couldn't find a NetBIOS name that works for the server. Sorry!
+|_smb2-time: ERROR: Script execution failed (use -d to debug)
+
+Nmap scan report for 192.168.2.64
+Host is up (0.046s latency).
+Not shown: 995 closed ports
+PORT     STATE SERVICE
+53/tcp   open  domain
+135/tcp  open  msrpc
+139/tcp  open  netbios-ssn
+445/tcp  open  microsoft-ds
+3389/tcp open  ms-wbt-server
+| ssl-cert: Subject: commonName=dns.corp.com
+| Issuer: commonName=dns.corp.com
+| Public Key type: rsa
+| Public Key bits: 2048
+| Signature Algorithm: sha256WithRSAEncryption
+| Not valid before: 2017-09-17T05:59:34
+| Not valid after:  2018-03-19T05:59:34
+| MD5:   04eb 2f3a 8435 e8ff c348 1a20 37d5 e4c6
+|_SHA-1: ecdd f12b 4b8f 233e 5974 fef4 1699 15f4 1686 3d72
+|_ssl-date: 2017-09-18T08:03:25+00:00; +7h58m12s from scanner time.
+
+Host script results:
+|_clock-skew: mean: 7h58m11s, deviation: 0s, median: 7h58m11s
+| smb-security-mode: 
+|   account_used: guest
+|   authentication_level: user
+|   challenge_response: supported
+|_  message_signing: disabled (dangerous, but default)
+| smb2-security-mode: 
+|   2.02: 
+|_    Message signing enabled but not required
+| smb2-time: 
+|   date: 2017-09-18 04:03:27
+|_  start_date: 2017-09-14 04:01:52
+
+Nmap scan report for 192.168.2.75
+Host is up (0.050s latency).
+Not shown: 979 closed ports
+PORT     STATE SERVICE
+53/tcp   open  domain
+88/tcp   open  kerberos-sec
+135/tcp  open  msrpc
+139/tcp  open  netbios-ssn
+389/tcp  open  ldap
+445/tcp  open  microsoft-ds
+464/tcp  open  kpasswd5
+593/tcp  open  http-rpc-epmap
+636/tcp  open  ldapssl
+1025/tcp open  NFS-or-IIS
+1026/tcp open  LSA-or-nterm
+1027/tcp open  IIS
+1028/tcp open  unknown
+1030/tcp open  iad1
+1031/tcp open  iad2
+1042/tcp open  afrog
+1044/tcp open  dcutility
+1051/tcp open  optima-vnet
+3268/tcp open  globalcatLDAP
+3269/tcp open  globalcatLDAPssl
+3389/tcp open  ms-wbt-server
+
+Host script results:
+| nbstat: NetBIOS name: W2K8R2001, NetBIOS user: <unknown>, NetBIOS MAC: 00:50:56:01:06:f0 (VMware)
+| Names:
+|   W2K8R2001<00>        Flags: <unique><active>
+|   CORP<00>             Flags: <group><active>
+|   CORP<1c>             Flags: <group><active>
+|   W2K8R2001<20>        Flags: <unique><active>
+|_  CORP<1b>             Flags: <unique><active>
+| smb2-security-mode: 
+|   2.02: 
+|_    Message signing enabled and required
+| smb2-time: 
+|   date: 2017-09-18 04:03:30
+|_  start_date: 2017-09-15 23:03:21
+
+NSE: Script Post-scanning.
+Initiating NSE at 20:07
+Completed NSE at 20:07, 0.00s elapsed
+Initiating NSE at 20:07
+Completed NSE at 20:07, 0.00s elapsed
+Read data files from: /usr/bin/../share/nmap
+Nmap done: 256 IP addresses (6 hosts up) scanned in 525.50 seconds
+           Raw packets sent: 10547 (451.940KB) | Rcvd: 4548 (183.148KB)
+

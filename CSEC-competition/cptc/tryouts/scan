@@ -1,0 +1,60 @@
+Nmap scan report for 192.168.2.2
+Host is up (0.042s latency).
+Not shown: 998 filtered ports
+PORT   STATE SERVICE VERSION
+53/tcp open  domain
+80/tcp open  http    nginx
+Warning: OSScan results may be unreliable because we could not find at least 1 open and 1 closed port
+Device type: specialized|general purpose
+Running (JUST GUESSING): Comau embedded (92%), OpenBSD 4.X (85%)
+OS CPE: cpe:/o:openbsd:openbsd:4.0
+Aggressive OS guesses: Comau C4G robot control unit (92%), OpenBSD 4.0 (85%)
+No exact OS matches for host (test conditions non-ideal).
+Uptime guess: 0.000 days (since Wed Sep 13 23:54:24 2017)
+TCP Sequence Prediction: Difficulty=261 (Good luck!)
+IP ID Sequence Generation: Randomized
+
+Nmap scan report for 192.168.2.75
+Host is up (0.044s latency).
+Not shown: 982 closed ports
+PORT      STATE SERVICE      VERSION
+53/tcp    open  domain       Microsoft DNS 6.1.7601
+88/tcp    open  kerberos-sec Microsoft Windows Kerberos (server time: 2017-09-14 11:53:24Z)
+135/tcp   open  msrpc        Microsoft Windows RPC
+139/tcp   open  netbios-ssn  Microsoft Windows netbios-ssn
+389/tcp   open  ldap         Microsoft Windows Active Directory LDAP (Domain: corp.com, Site: Default-First-Site-Name)
+445/tcp   open  microsoft-ds Microsoft Windows Server 2008 R2 - 2012 microsoft-ds (workgroup: CORP)
+464/tcp   open  kpasswd5?
+593/tcp   open  ncacn_http   Microsoft Windows RPC over HTTP 1.0
+636/tcp   open  tcpwrapped
+3268/tcp  open  ldap         Microsoft Windows Active Directory LDAP (Domain: corp.com, Site: Default-First-Site-Name)
+3269/tcp  open  tcpwrapped
+49152/tcp open  msrpc        Microsoft Windows RPC
+49153/tcp open  msrpc        Microsoft Windows RPC
+49154/tcp open  msrpc        Microsoft Windows RPC
+49155/tcp open  msrpc        Microsoft Windows RPC
+49157/tcp open  ncacn_http   Microsoft Windows RPC over HTTP 1.0
+49158/tcp open  msrpc        Microsoft Windows RPC
+49175/tcp open  msrpc        Microsoft Windows RPC
+No exact OS matches for host (If you know what OS is running on it, see https://nmap.org/submit/ ).
+TCP/IP fingerprint:
+OS:SCAN(V=7.60%E=4%D=9/13%OT=53%CT=1%CU=42650%PV=Y%DS=2%DC=I%G=Y%TM=59B9FD7
+OS:D%P=x86_64-pc-linux-gnu)SEQ(SP=102%GCD=1%ISR=108%TI=I%II=I%SS=S%TS=7)SEQ
+OS:(SP=102%GCD=1%ISR=108%TI=I%TS=7)OPS(O1=M549NW8ST11%O2=M549NW8ST11%O3=M54
+OS:9NW8NNT11%O4=M549NW8ST11%O5=M549NW8ST11%O6=M549ST11)WIN(W1=2000%W2=2000%
+OS:W3=2000%W4=2000%W5=2000%W6=2000)ECN(R=Y%DF=Y%T=80%W=2000%O=M549NW8NNS%CC
+OS:=N%Q=)T1(R=Y%DF=Y%T=80%S=O%A=S+%F=AS%RD=0%Q=)T2(R=N)T3(R=N)T4(R=N)T5(R=Y
+OS:%DF=Y%T=80%W=0%S=Z%A=S+%F=AR%O=%RD=0%Q=)T6(R=N)T7(R=N)U1(R=Y%DF=N%T=80%I
+OS:PL=164%UN=0%RIPL=G%RID=G%RIPCK=G%RUCK=G%RUD=G)IE(R=Y%DFI=N%T=80%CD=Z)
+
+Uptime guess: 0.162 days (since Wed Sep 13 20:01:13 2017)
+Network Distance: 2 hops
+TCP Sequence Prediction: Difficulty=258 (Good luck!)
+IP ID Sequence Generation: Incremental
+Service Info: Host: W2K8R2001; OS: Windows; CPE: cpe:/o:microsoft:windows
+
+Read data files from: /usr/bin/../share/nmap
+OS and Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+Nmap done: 2 IP addresses (2 hosts up) scanned in 336.74 seconds
+           Raw packets sent: 3543 (171.594KB) | Rcvd: 1387 (66.130KB)
+
